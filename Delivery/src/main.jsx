@@ -2,11 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 import "./index.css";
-import { StateProvider } from "./context/StateProvider.js";
+import { StateProvider } from "./context/StateProvider";
 
 import { BrowserRouter as Router } from "react-router-dom";
-import { initialState } from "./context/initialState.js";
-import reducer from "./context/reducer.js";
+import { initialState } from "./context/initialState";
+import reducer from "./context/reducer";
 
 ReactDOM.render(
   <React.StrictMode>
